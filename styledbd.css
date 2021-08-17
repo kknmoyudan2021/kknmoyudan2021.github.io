@@ -1,0 +1,139 @@
+*{
+    font-family: "Encode Sans", sans-serif;
+}
+
+h1{
+    font-weight: 900;
+    color: #232A34;
+}
+
+h2{
+    font-weight: 800;
+    color: #232A34;
+}
+
+h3{
+    margin-top: 20px;
+    font-weight: 700;
+    color: #232A34;
+}
+p{
+    font-weight: 500;
+    color: #7E8DA4;
+    margin-top: 20px;
+    line-height: 2rem;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    font-weight: 500;
+    color: #7E8DA4;
+}
+
+.bluebg{
+    background-color: #F1F6FF;
+}
+
+.blackbg{
+    background-color: #191a1b;
+}
+
+.bgimg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    transform: translateY(250px);
+    opacity: 0.2;
+}
+
+button{
+    width: 140px;
+    font-weight: 600;
+    border: 0;
+    padding: 15px 12px;
+    outline: none;
+    color: #fff;
+    background-color: #1690F8;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(22, 144, 248, 0.5);
+    transition: 0.3s;
+    font-size: 13px;
+    /* display: block; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.macam .container .row .col-lg-5 ul li{
+    display: block;
+}
+
+.macam .container .row .col-lg-5 ul li a button{
+    width: 200px;
+}
+
+.tombol .container{
+    flex: 1;
+    text-align: center;
+}
+
+.tombol .container ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tombol .container ul li a button{
+    width: 200px;
+}
+
+.list-group-item{
+    color: #7E8DA4;
+    background-color: transparent;
+}
+
+.mekanisme span{
+    font-size:x-large;
+    font-weight: 800;
+    color: #1690F8;
+    margin-right: 10px;
+}
+
+.kompos{
+    max-width: 50%;
+}
+
+.footerlogo{
+    opacity: 50%;
+    transition: 0.3s;
+}
+
+.footerlogo:hover{
+    opacity: 100%;
+    transition: 0.3s;
+}
+
+.footerp{
+    margin-top: auto;
+    font-weight: 400;
+    font-size: small;
+    color: #fff;
+    opacity: 50%;
+}
+/* @media only screen and (max-width:700px) {
+    .macam .container .row .col-md-5 ul li a button{
+        text-decoration: none;
+        display: block;
+        text-decoration: none;
+    }
+} */

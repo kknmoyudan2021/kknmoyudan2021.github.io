@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KKN-PPM UGM Moyudan 2021</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+    <body>
+        <img src="img\wave.png" class="bgimg" >
+        <div class="container">
+            <div class="navbar">
+                <img src="KKNMoyudanHorizontal.png" class="logo">
+                <nav>
+                    <ul id='menulist'>
+                        <li><a href="">Home</a></li>
+                        <li><a href="dbd.html">DBD</a></li>
+                        <li><a href="kelola.html">Pengelolaan Sampah</a></li>
+                    </ul>
+                </nav>
+                <img src="menu_black_24dp.svg" class="menu-icon" onclick="togglemenu()">
+            </div>
+
+            <div class="row">
+                <div class="col-1">
+                    <h2>Pencegahan DBD</h2>
+                    <h3>Melalui Pengelolaan Sampah</h3>
+                    <a href="dbd.html">
+                        <button type="button" ">Lanjut ke Halaman</button>
+                    </a>
+                        
+
+                    
+                </div>
+                <div class="col-2">
+                    <img src="img\vectorweb.png" class="vector" data-aos="fade-up">
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var menulist = document.getElementById("menulist");
+
+            menulist.style.maxHeight = '0px';
+
+            function togglemenu(){
+                if(menulist.style.maxHeight == '0px'){
+                    menulist.style.maxHeight = '130px';
+                }else{
+                    menulist.style.maxHeight = '0px';
+                }
+            }
+        </script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset:200,
+                duration:1000
+            });
+        </script>
+    </body>
+</html>
